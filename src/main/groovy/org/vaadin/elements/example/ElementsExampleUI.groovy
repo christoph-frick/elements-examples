@@ -14,15 +14,20 @@ class ElementsExampleUI extends UI {
 
     protected void init(VaadinRequest request) {
         final layout = new CssLayout()
+        final slider
+        final input
         elements(layout) {
             div {
-                'paper-slider'(value: '60', _bindings: [value: 'change'], _events: [
-                        change: { Notification.show("Clicked for ${it.value}") }
+                slider = 'paper-slider'(value: '60', _bindings: [value: 'change'], _events: [
+                        change: { Notification.show("Slided to ${it.value}") }
                 ])
             }
             div {
+                input = 'paper-input'(label: "Input", _bindings: [value: 'change'])
+            }
+            div {
                 'paper-button'([_events: [
-                        click: { Notification.show("Clicked the button")}
+                        click: { Notification.show("Slider: $slider.value / input $input.value")}
                 ]]) {
                     'core-icon'(icon: 'check')
                     b('Bold')
