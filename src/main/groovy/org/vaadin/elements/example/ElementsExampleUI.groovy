@@ -29,7 +29,7 @@ class ElementsExampleUI extends UI {
                 'paper-button'([_events: [
                         click: { Notification.show("Slider: $slider.value / input $input.value")}
                 ]]) {
-                    'core-icon'(icon: 'check')
+                    'iron-icon'(icon: 'icons:check')
                     b('Bold')
                     i('Italic')
                     span('Click me')

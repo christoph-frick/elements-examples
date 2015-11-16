@@ -36,14 +36,14 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "homepage": "https://github.com/polymerelements/paper-slider",
+  "homepage": "https://github.com/PolymerElements/paper-slider",
   "_release": "1.0.7",
   "_resolution": {
     "type": "version",
     "tag": "v1.0.7",
     "commit": "087c9ecdfca14f4a3faf45006203de08a8910995"
   },
-  "_source": "git://github.com/polymerelements/paper-slider.git",
+  "_source": "git://github.com/PolymerElements/paper-slider.git",
   "_target": "^1.0.0",
-  "_originalSource": "polymerelements/paper-slider"
+  "_originalSource": "PolymerElements/paper-slider"
 }
